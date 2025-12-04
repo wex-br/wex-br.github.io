@@ -1,17 +1,13 @@
 [
     {
-        "url": "https://www.example.com",
-        "name": ["مثال", "Example Site", "WEX"],
-        "description": ["هذا موقع مثال لاختبار البحث", "صفحة تجريبية"]
+        "url": "https://ahmedxv-v12.github.io",
+        "name": ["IFelx", "IFelx Web", "IFelx ", "jowa-gpt", "jowa-ai-football"],
+        "description": ["IFelx Web هو موقع لعرض مشاريع A_XV مثل Jowa-GPT و jowa-ai-football"]
     },
     {
-        "url": "https://www.news.com",
-        "name": ["أخبار", "News Portal"],
-        "description": ["موقع أخبار عالمي", "تغطية يومية"]
-    },
-    {
-        "url": "https://www.learnjs.com",
-        "name": ["تعلم جافاسكريبت", "Learn JS"],
-        "description": ["دروس برمجة", "تعليم للمبتدئين والمتقدمين"]
+        "url": "https://youtube.com",
+        "name": ["يوتيوب", "youtube"],
+        "description": ["موقع أخبار عالمي", "youtube to search a favorite vedios"]
     }
 ]
+
