@@ -1,0 +1,17 @@
+[
+    {
+        "url": "https://www.example.com",
+        "name": ["مثال", "Example Site", "WEX"],
+        "description": ["هذا موقع مثال لاختبار البحث", "صفحة تجريبية"]
+    },
+    {
+        "url": "https://www.news.com",
+        "name": ["أخبار", "News Portal"],
+        "description": ["موقع أخبار عالمي", "تغطية يومية"]
+    },
+    {
+        "url": "https://www.learnjs.com",
+        "name": ["تعلم جافاسكريبت", "Learn JS"],
+        "description": ["دروس برمجة", "تعليم للمبتدئين والمتقدمين"]
+    }
+]

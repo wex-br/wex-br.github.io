@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>نتائج البحث - WEX</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f8f9fa;
+            min-height: 100vh;
+        }
+
+        .search-header {
+            background: #fff;
+            padding: 15px 20px;
+            border-bottom: 1px solid #dadce0;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo {
+            width: 40px;
+            height: 40px;
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .search-container {
+            flex: 1;
+            display: flex;
+            max-width: 600px;
+            height: 45px;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            overflow: hidden;
+        }
+
+        .search-container:hover {
+            box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+        }
+
+        .search-input {
+            flex: 1;
+            border: none;
+            padding: 0 20px;
+            font-size: 16px;
+            outline: none;
+            background: transparent;
+        }
+
+        .search-button {
+            width: 60px;
+            background: #fff;
+            border: none;
+            border-left: 1px solid #dfe1e5;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .search-button:hover {
+            background: #f8f9fa;
+        }
+
+        .search-button img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .main-content {
+            max-width: 700px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .results-info {
+            color: #70757a;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #dadce0;
+        }
+
+        .result-item {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: 1px solid #dadce0;
+        }
+
+        .result-title {
+            color: #1a0dab;
+            font-size: 20px;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .result-title:hover {
+            text-decoration: underline;
+        }
+
+        .result-url {
+            color: #006621;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .result-desc {
+            color: #545454;
+            font-size: 15px;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
+        .result-keywords {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .keyword {
+            background: #f1f3f4;
+            color: #5f6368;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            background: #fff;
+            border-radius: 8px;
+            border: 1px solid #dadce0;
+        }
+
+        @media (max-width: 600px) {
+            .search-header {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .search-container {
+                width: 100%;
+            }
+
+            .main-content {
+                padding: 0 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="search-header">
+        <div class="logo">
+            <img src="../logow.png" alt="WEX Logo" />
+        </div>
+        <div class="search-container">
+            <input
+                type="text"
+                class="search-input"
+                id="searchInput"
+                placeholder="ابحث في WEX..."
+                onkeypress="if(event.key === 'Enter') searchAgain()"
+            />
+            <button class="search-button" onclick="searchAgain()">
+                <img src="../search@.png" alt="بحث" />
+            </button>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div id="resultsContainer">
+            <!-- النتائج تظهر هنا -->
+        </div>
+    </div>
+
+    <!-- دمج خوارزميات البحث داخل الصفحة (Algorithms.js content) -->
+    <script>
+        // Algorithms (embedded)
+
+        // دالة لتحليل سطر من dataset النصي (دعم تنسيق نصي إذا استخدمت)
+        function parseLine(line) {
+            try {
+                line = line.trim();
+                if (!line.startsWith('{') || !line.endsWith('}')) {
+                    return null;
+                }
+                let content = line.substring(1, line.length - 1).trim();
+                const urlMatch = content.match(/url\s*=\s*([^,]+)/);
+                const nameMatch = content.match(/name\s*=\s*\{([^}]*)\}/);
+                const descMatch = content.match(/description\s*=\s*\{([^}]*)\}/);
+                if (!urlMatch || !nameMatch || !descMatch) {
+                    return null;
+                }
+                const url = urlMatch[1].trim();
+                const names = nameMatch[1]
+                    .split(',')
+                    .map(n => n.trim())
+                    .filter(n => n);
+                const descriptions = descMatch[1]
+                    .split(',')
+                    .map(d => d.trim())
+                    .filter(d => d);
+                return {
+                    url: url || '',
+                    name: names.length ? names : ['بدون اسم'],
+                    description: descriptions.length ? descriptions : ['بدون وصف']
+                };
+            } catch (e) {
+                console.error("Error parsing line:", line, e);
+                return null;
+            }
+        }
+
+        // تحويل dataset النصي إلى مصفوفة
+        function parseDataset(datasetText) {
+            if (!datasetText || typeof datasetText !== 'string') return [];
+            const lines = datasetText.split('\n');
+            const result = [];
+            for (const line of lines) {
+                if (line.trim() === '') continue;
+                const parsed = parseLine(line);
+                if (parsed) result.push(parsed);
+            }
+            return result;
+        }
+
+        // دالة البحث الرئيسية (تدعم تمرير مصفوفة JSON أو نص)
+        function search(query, datasetText) {
+            try {
+                if (!query || typeof query !== 'string') return [];
+                const searchTerm = query.toLowerCase().trim();
+                if (!searchTerm) return [];
+
+                const dataset = Array.isArray(datasetText)
+                    ? datasetText
+                    : parseDataset(datasetText);
+
+                if (!dataset.length) return [];
+
+                const results = [];
+
+                for (const item of dataset) {
+                    let score = 0;
+
+                    if (item.name && Array.isArray(item.name)) {
+                        for (const name of item.name) {
+                            if (typeof name === 'string' && name.toLowerCase().includes(searchTerm)) {
+                                score += 10;
+                                break;
+                            }
+                        }
+                    }
+
+                    if (score === 0 && item.description && Array.isArray(item.description)) {
+                        for (const desc of item.description) {
+                            if (typeof desc === 'string' && desc.toLowerCase().includes(searchTerm)) {
+                                score += 5;
+                                break;
+                            }
+                        }
+                    }
+
+                    if (score === 0 && item.url && typeof item.url === 'string' && item.url.toLowerCase().includes(searchTerm)) {
+                        score += 3;
+                    }
+
+                    if (score > 0) {
+                        results.push({ item, score });
+                    }
+                }
+
+                results.sort((a, b) => b.score - a.score);
+                return results.map(r => r.item);
+            } catch (error) {
+                console.error("Search error:", error);
+                return [];
+            }
+        }
+
+        // expose API on window (backwards compatible)
+        window.WEXAlgorithms = {
+            search: search,
+            parseDataset: parseDataset
+        };
+    </script>
+
+    <!-- سكربت الصفحة الرئيسي -->
+    <script>
+        function searchAgain() {
+            const query = document.getElementById('searchInput').value.trim();
+            if (query) {
+                // يبقي في نفس المسار (search.html داخل q=)
+                window.location.href = `./search.html?q=${encodeURIComponent(query)}`;
+            }
+        }
+
+        async function loadSearchResults() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const query = urlParams.get('q');
+            const resultsContainer = document.getElementById('resultsContainer');
+
+            if (!query) {
+                // الرجوع للصفحة الرئيسية
+                window.location.href = '../index.html';
+                return;
+            }
+
+            document.getElementById('searchInput').value = query;
+
+            try {
+                // جلب dataset.json (يفضل أن يكون مصفوفة JSON)
+                const datasetRes = await fetch('./dataset.json', { cache: 'no-cache' });
+                if (!datasetRes.ok) {
+                    throw new Error(`فشل تحميل dataset.json (HTTP ${datasetRes.status})`);
+                }
+
+                // نحاول جلب كـ JSON؛ إذا لم يكن JSON، سنعالج النص باستخدام parseDataset
+                let dataset;
+                const contentType = datasetRes.headers.get('content-type') || '';
+                if (contentType.indexOf('application/json') !== -1) {
+                    dataset = await datasetRes.json();
+                } else {
+                    const text = await datasetRes.text();
+                    // لو النص عبارة عن تمثيل JSON (مصفوفة)، نحاول parse
+                    try {
+                        dataset = JSON.parse(text);
+                        if (!Array.isArray(dataset)) {
+                            // لو ما كانت مصفوفة، نستخدم المحلل النصي القديم
+                            dataset = parseDataset(text);
+                        }
+                    } catch (e) {
+                        // ليس JSON، استخدم المحلل النصي
+                        dataset = parseDataset(text);
+                    }
+                }
+
+                // التحقق من وجود خوارزميات البحث
+                if (!window.WEXAlgorithms || !window.WEXAlgorithms.search) {
+                    throw new Error("لم يتم تحميل خوارزميات البحث بشكل صحيح");
+                }
+
+                const results = window.WEXAlgorithms.search(query, dataset);
+
+                if (!results.length) {
+                    resultsContainer.innerHTML = `
+                        <div class="no-results">
+                            <h2>لا توجد نتائج لـ "${escapeHtml(query)}"</h2>
+                            <p>حاول استخدام كلمات بحث أخرى</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                let html = `<div class="results-info">عُثر على ${results.length} نتيجة لـ "${escapeHtml(query)}"</div>`;
+
+                results.forEach(item => {
+                    const firstName = Array.isArray(item.name) && item.name.length ? item.name[0] : 'بدون اسم';
+                    const firstDesc = Array.isArray(item.description) && item.description.length ? item.description[0] : 'بدون وصف';
+                    const urlSafe = escapeAttribute(item.url || '#');
+
+                    html += `
+                        <div class="result-item">
+                            <a href="${urlSafe}" class="result-title" target="_blank" rel="noopener noreferrer">${escapeHtml(firstName)}</a>
+                            <div class="result-url">${escapeHtml(item.url || '')}</div>
+                            <div class="result-desc">${escapeHtml(firstDesc)}</div>
+                            ${Array.isArray(item.name) && item.name.length > 1 ? `
+                                <div class="result-keywords">
+                                    ${item.name.slice(1).map(name => `<span class="keyword">${escapeHtml(name)}</span>`).join('')}
+                                </div>
+                            ` : ''}
+                        </div>
+                    `;
+                });
+
+                resultsContainer.innerHTML = html;
+
+            } catch (error) {
+                console.error('حدث خطأ:', error);
+                resultsContainer.innerHTML = `
+                    <div class="no-results">
+                        <h2>حدث خطأ في تحميل النتائج</h2>
+                        <p>${escapeHtml(error.message)}</p>
+                        <p>يرجى المحاولة مرة أخرى</p>
+                    </div>
+                `;
+            }
+        }
+
+        // دوال مساعدة للسلامة (تجنب إدخال HTML خام)
+        function escapeHtml(str) {
+            if (str === null || str === undefined) return '';
+            return String(str)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function escapeAttribute(str) {
+            if (str === null || str === undefined) return '#';
+            // بسيط: نحفظ الروابط كما هي لكن نضمن تحويل علامات الاقتباس
+            return String(str).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+        }
+
+        document.addEventListener('DOMContentLoaded', loadSearchResults);
+    </script>
+</body>
+</html>

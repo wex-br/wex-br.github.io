@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEX محرك البحث</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        
+        .header {
+            margin: 50px auto 30px;
+            max-width: 600px;
+        }
+        
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 20px;
+        }
+        
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 48px;
+            margin: 0 0 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        
+        .search-box {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            height: 50px;
+            border: 2px solid #dfe1e5;
+            border-radius: 25px;
+            overflow: hidden;
+        }
+        
+        .search-box:hover {
+            box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+        }
+        
+        .search-input {
+            flex: 1;
+            border: none;
+            padding: 0 20px;
+            font-size: 16px;
+            outline: none;
+        }
+        
+        .search-btn {
+            width: 60px;
+            background: #4285f4;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .search-btn:hover {
+            background: #3367d6;
+        }
+        
+        .search-btn img {
+            width: 22px;
+            height: 22px;
+            filter: invert(1);
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 36px;
+            }
+            
+            .logo {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="logow.png" alt="WEX Logo">
+        </div>
+        <h1>WEX</h1>
+        <div class="subtitle">محرك البحث العربي السريع</div>
+        
+        <div class="search-box">
+            <input type="text" 
+                   class="search-input" 
+                   id="searchInput" 
+                   placeholder="ابحث في WEX..."
+                   onkeypress="if(event.key === 'Enter') search()">
+            
+            <button class="search-btn" onclick="search()">
+                <img src="search@.png" alt="بحث">
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function search() {
+            const query = document.getElementById('searchInput').value.trim();
+            if (query) {
+                // إصلاح المسار - استخدم مسار نسبي
+                window.location.href = `./q=/search.html?q=${encodeURIComponent(query)}`;
+            }
+        }
+        
+        window.onload = function() {
+            document.getElementById('searchInput').focus();
+        };
+    </script>
+</body>
+</html>
