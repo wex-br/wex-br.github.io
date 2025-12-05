@@ -33,5 +33,18 @@
             "From your first line of code to final deployment",
             "GitHub provides AI and automation tools to help you build and ship better software faster. A Copilot chat ..."
         ]
+    },
+    {
+        "url": "https://chatgpt.com/",
+        "name": [
+            "chatgpt",
+            "ChatGPT",
+            "شات جي بي تي"
+        ],
+        "description": [
+            "ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas",
+            "solve problems",
+            "and learn faster"
+        ]
     }
 ]
