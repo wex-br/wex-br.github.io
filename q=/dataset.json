@@ -1,13 +1,37 @@
 [
     {
         "url": "https://ahmedxv-v12.github.io",
-        "name": ["IFelx", "IFelx Web", "IFelx ", "jowa-gpt", "jowa-ai-football"],
-        "description": ["IFelx Web هو موقع لعرض مشاريع A_XV مثل Jowa-GPT و jowa-ai-football"]
+        "name": [
+            "IFelx",
+            "IFelx Web",
+            "IFelx ",
+            "jowa-gpt",
+            "jowa-ai-football"
+        ],
+        "description": [
+            "IFelx Web هو موقع لعرض مشاريع A_XV مثل Jowa-GPT و jowa-ai-football"
+        ]
     },
     {
         "url": "https://youtube.com",
-        "name": ["يوتيوب", "youtube"],
-        "description": ["موقع أخبار عالمي", "youtube to search a favorite vedios"]
+        "name": [
+            "يوتيوب",
+            "youtube"
+        ],
+        "description": [
+            "موقع أخبار عالمي",
+            "youtube to search a favorite vedios"
+        ]
+    },
+    {
+        "url": "https://github.com/",
+        "name": [
+            "Github",
+            "github"
+        ],
+        "description": [
+            "From your first line of code to final deployment",
+            "GitHub provides AI and automation tools to help you build and ship better software faster. A Copilot chat ..."
+        ]
     }
 ]
-
