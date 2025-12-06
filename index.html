@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEX محرك البحث</title>
-    <link rel="icon" type="image/png" href="logow.png">
     <meta name="description" content="WEX browser هو متصفح عربي مصنوع لكي يكون متصفح سهل و امن ويكون عربي ايضا بالكامل">
     <meta name="keywords" content="بحث, مواقع, محرك بحث عربي, WEX,WEX browser,Wex, browser">
 
@@ -76,10 +75,11 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            transition: background 0.7s;
         }
         
         .search-btn:hover {
-            background: #ffffff;
+            background: #155ab6;
         }
         
         .search-btn img {
@@ -87,6 +87,28 @@
             height: 22px;
             filter: invert(1);
         }
+        
+        #addWebBtn {
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+            padding: 10px 15px;
+            border-radius: 8px;
+            background-color: #14204b;
+            color: rgb(92, 92, 92);
+            font-size: 14px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+            z-index: 1000;
+            transition: background 0.7s;
+        }
+
+        #addWebBtn:hover {
+            background-color: #155ab6;
+            color: rgb(255, 255, 255);
+        }
+
         
         @media (max-width: 600px) {
             body {
@@ -104,6 +126,41 @@
         }
     </style>
 </head>
+
+<script>
+// ======= كود الكوكي =======
+
+
+const cookieName = "showReligiousSites";
+
+function getCookie(name) {
+    let matches = document.cookie.match(new RegExp(
+        "(?:^|; )" + name.replace(/([.$?*|{}()[]\/+^])/g, '\\$1') + "=([^;]*)"
+    ));
+    return matches ? decodeURIComponent(matches[1]) : undefined;
+}
+
+function setCookie(name, value, days) {
+    let expires = "";
+    if (days) {
+        let date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + encodeURIComponent(value) + expires + "; path=/";
+}
+
+let visited = getCookie(cookieName);
+if (!visited) {
+    setCookie(cookieName, "true", 30); // تجدد كل 30 يوم
+    console.log("الكوكي تم إنشاؤه لأول مرة أو انتهت صلاحيته.");
+} else {
+    setCookie(cookieName, "true", 30);
+    console.log("الكوكي موجود وتم تجديد صلاحيته.");
+}
+</script>
+
+
 <body>
     <div class="header">
         <div class="logo">
@@ -124,7 +181,6 @@
             </button>
         </div>
     </div>
-
     <script>
         function search() {
             const query = document.getElementById('searchInput').value.trim();
@@ -138,6 +194,14 @@
             document.getElementById('searchInput').focus();
         };
     </script>
+
+    <button id="addWebBtn" title="أضف موقعك">Add Your Web</button>
+    <script>
+    document.getElementById('addWebBtn').addEventListener('click', function() {
+        window.location.href = './q=/addweb.html';
+    });
+</script>
+
+
 </body>
 </html>
-
