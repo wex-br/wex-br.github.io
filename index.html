@@ -185,7 +185,6 @@ if (!visited) {
         function search() {
             const query = document.getElementById('searchInput').value.trim();
             if (query) {
-                // إصلاح المسار - استخدم مسار نسبي
                 window.location.href = `./q=/search.html?q=${encodeURIComponent(query)}`;
             }
         }
@@ -195,13 +194,14 @@ if (!visited) {
         };
     </script>
 
-    <button id="addWebBtn" title="أضف موقعك">Add Your Web</button>
-    <script>
-    document.getElementById('addWebBtn').addEventListener('click', function() {
-        window.location.href = './q=/addweb.html';
+    //<button id="addWebBtn" title="أضف موقعك">Add Your Web</button>
+    //<script>
+    //document.getElementById('addWebBtn').addEventListener('click', function() {
+        //window.location.href = './q=/addweb.html';
     });
 </script>
 
 
 </body>
 </html>
+
