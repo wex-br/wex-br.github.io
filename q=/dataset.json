@@ -1763,5 +1763,2150 @@
             "أتمتة جمع البيانات",
             "سحب المعلومات من المواقع"
         ]
+    },
+    {
+        "url": "https://fonts.googleapis.com",
+        "name": [
+            "fonts",
+            "googleapis"
+        ],
+        "description": [
+            "Google Fonts",
+            "Web Fonts"
+        ]
+    },
+    {
+        "url": "https://facebook.com",
+        "name": [
+            "Facebook",
+            "Social Network"
+        ],
+        "description": [
+            "Social Media",
+            "Connect with friends"
+        ]
+    },
+    {
+        "url": "https://twitter.com",
+        "name": [
+            "Twitter",
+            "X"
+        ],
+        "description": [
+            "Social Network",
+            "Microblogging"
+        ]
+    },
+    {
+        "url": "https://google.com",
+        "name": [
+            "Google",
+            "Search Engine"
+        ],
+        "description": [
+            "Search",
+            "Information"
+        ]
+    },
+    {
+        "url": "https://s.w.org",
+        "name": [
+            "s.w.org",
+            "WordPress"
+        ],
+        "description": [
+            "CDN",
+            "Content Delivery Network"
+        ]
+    },
+    {
+        "url": "https://instagram.com",
+        "name": [
+            "Instagram",
+            "Social Network"
+        ],
+        "description": [
+            "Photo Sharing",
+            "Video Sharing"
+        ]
+    },
+    {
+        "url": "https://googletagmanager.com",
+        "name": [
+            "Google Tag Manager",
+            "Analytics"
+        ],
+        "description": [
+            "Tracking",
+            "Marketing"
+        ]
+    },
+    {
+        "url": "https://linkedin.com",
+        "name": [
+            "LinkedIn",
+            "Social Network"
+        ],
+        "description": [
+            "Professional",
+            "Networking"
+        ]
+    },
+    {
+        "url": "https://ajax.googleapis.com",
+        "name": [
+            "ajax.googleapis",
+            "Google"
+        ],
+        "description": [
+            "CDN",
+            "JavaScript Library"
+        ]
+    },
+    {
+        "url": "https://plus.google.com",
+        "name": [
+            "Google+",
+            "Social Network"
+        ],
+        "description": [
+            "Google",
+            "Discontinued"
+        ]
+    },
+    {
+        "url": "https://gmpg.org",
+        "name": [
+            "gmpg.org",
+            "Gnu"
+        ],
+        "description": [
+            "Privacy",
+            "Guard"
+        ]
+    },
+    {
+        "url": "https://pinterest.com",
+        "name": [
+            "Pinterest",
+            "Social Network"
+        ],
+        "description": [
+            "Image Sharing",
+            "Inspiration"
+        ]
+    },
+    {
+        "url": "https://fonts.gstatic.com",
+        "name": [
+            "fonts.gstatic",
+            "Google"
+        ],
+        "description": [
+            "CDN",
+            "Static Fonts"
+        ]
+    },
+    {
+        "url": "https://wordpress.org",
+        "name": [
+            "WordPress",
+            "CMS"
+        ],
+        "description": [
+            "Blogging",
+            "Website Builder"
+        ]
+    },
+    {
+        "url": "https://en.wikipedia.org",
+        "name": [
+            "Wikipedia",
+            "Encyclopedia"
+        ],
+        "description": [
+            "Information",
+            "Knowledge"
+        ]
+    },
+    {
+        "url": "https://youtu.be",
+        "name": [
+            "YouTube",
+            "Video"
+        ],
+        "description": [
+            "Streaming",
+            "Entertainment"
+        ]
+    },
+    {
+        "url": "https://maps.google.com",
+        "name": [
+            "Google Maps",
+            "Maps"
+        ],
+        "description": [
+            "Navigation",
+            "Directions"
+        ]
+    },
+    {
+        "url": "https://itunes.apple.com",
+        "name": [
+            "iTunes",
+            "Apple"
+        ],
+        "description": [
+            "Music",
+            "Store"
+        ]
+    },
+    {
+        "url": "https://bit.ly",
+        "name": [
+            "Bitly",
+            "URL Shortener"
+        ],
+        "description": [
+            "Links",
+            "Analytics"
+        ]
+    },
+    {
+        "url": "https://play.google.com",
+        "name": [
+            "Google Play",
+            "Android"
+        ],
+        "description": [
+            "Apps",
+            "Store"
+        ]
+    },
+    {
+        "url": "https://goo.gl",
+        "name": [
+            "goo.gl",
+            "URL Shortener"
+        ],
+        "description": [
+            "Google",
+            "Links"
+        ]
+    },
+    {
+        "url": "https://docs.google.com",
+        "name": [
+            "Google Docs",
+            "Productivity"
+        ],
+        "description": [
+            "Documents",
+            "Collaboration"
+        ]
+    },
+    {
+        "url": "https://cdnjs.cloudflare.com",
+        "name": [
+            "cdnjs",
+            "Cloudflare"
+        ],
+        "description": [
+            "CDN",
+            "JavaScript Library"
+        ]
+    },
+    {
+        "url": "https://vimeo.com",
+        "name": [
+            "Vimeo",
+            "Video"
+        ],
+        "description": [
+            "Streaming",
+            "Creative"
+        ]
+    },
+    {
+        "url": "https://support.google.com",
+        "name": [
+            "Google Support",
+            "Help"
+        ],
+        "description": [
+            "Support",
+            "Troubleshooting"
+        ]
+    },
+    {
+        "url": "https://google-analytics.com",
+        "name": [
+            "Google Analytics",
+            "Analytics"
+        ],
+        "description": [
+            "Tracking",
+            "Website Stats"
+        ]
+    },
+    {
+        "url": "https://maps.googleapis.com",
+        "name": [
+            "maps.googleapis",
+            "Google"
+        ],
+        "description": [
+            "API",
+            "Maps"
+        ]
+    },
+    {
+        "url": "https://flickr.com",
+        "name": [
+            "Flickr",
+            "Photo Sharing"
+        ],
+        "description": [
+            "Images",
+            "Community"
+        ]
+    },
+    {
+        "url": "https://vk.com",
+        "name": [
+            "VK",
+            "Social Network"
+        ],
+        "description": [
+            "Russia",
+            "Communication"
+        ]
+    },
+    {
+        "url": "https://t.co",
+        "name": [
+            "t.co",
+            "Twitter"
+        ],
+        "description": [
+            "URL Shortener",
+            "Links"
+        ]
+    },
+    {
+        "url": "https://medium.com",
+        "name": [
+            "Medium",
+            "Blogging"
+        ],
+        "description": [
+            "Publishing",
+            "Stories"
+        ]
+    },
+    {
+        "url": "https://sites.google.com",
+        "name": [
+            "Google Sites",
+            "Website Builder"
+        ],
+        "description": [
+            "Google",
+            "Free Websites"
+        ]
+    },
+    {
+        "url": "https://drive.google.com",
+        "name": [
+            "Google Drive",
+            "Cloud Storage"
+        ],
+        "description": [
+            "File Sharing",
+            "Collaboration"
+        ]
+    },
+    {
+        "url": "https://creativecommons.org",
+        "name": [
+            "Creative Commons",
+            "Licensing"
+        ],
+        "description": [
+            "Copyright",
+            "Open Source"
+        ]
+    },
+    {
+        "url": "https://developers.google.com",
+        "name": [
+            "Google Developers",
+            "Programming"
+        ],
+        "description": [
+            "API",
+            "Documentation"
+        ]
+    },
+    {
+        "url": "https://soundcloud.com",
+        "name": [
+            "SoundCloud",
+            "Music"
+        ],
+        "description": [
+            "Audio",
+            "Streaming"
+        ]
+    },
+    {
+        "url": "https://theguardian.com",
+        "name": [
+            "The Guardian",
+            "News"
+        ],
+        "description": [
+            "Media",
+            "Newspaper"
+        ]
+    },
+    {
+        "url": "https://apis.google.com",
+        "name": [
+            "apis.google",
+            "Google"
+        ],
+        "description": [
+            "API",
+            "Services"
+        ]
+    },
+    {
+        "url": "https://ec.europa.eu",
+        "name": [
+            "European Commission",
+            "EU"
+        ],
+        "description": [
+            "Government",
+            "Europe"
+        ]
+    },
+    {
+        "url": "https://lh3.googleusercontent.com",
+        "name": [
+            "lh3.googleusercontent",
+            "Google"
+        ],
+        "description": [
+            "CDN",
+            "User Content"
+        ]
+    },
+    {
+        "url": "https://chrome.google.com",
+        "name": [
+            "Google Chrome",
+            "Browser"
+        ],
+        "description": [
+            "Google",
+            "Web Browser"
+        ]
+    },
+    {
+        "url": "https://cloudflare.com",
+        "name": [
+            "Cloudflare",
+            "CDN"
+        ],
+        "description": [
+            "Security",
+            "Performance"
+        ]
+    },
+    {
+        "url": "https://maxcdn.bootstrapcdn.com",
+        "name": [
+            "Bootstrap CDN",
+            "CDN"
+        ],
+        "description": [
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "url": "https://support.microsoft.com",
+        "name": [
+            "Microsoft Support",
+            "Help"
+        ],
+        "description": [
+            "Support",
+            "Troubleshooting"
+        ]
+    },
+    {
+        "url": "https://blogger.com",
+        "name": [
+            "Blogger",
+            "Blogging"
+        ],
+        "description": [
+            "Google",
+            "Publishing"
+        ]
+    },
+    {
+        "url": "https://forbes.com",
+        "name": [
+            "Forbes",
+            "Magazine"
+        ],
+        "description": [
+            "Business",
+            "News"
+        ]
+    },
+    {
+        "url": "https://s3.amazonaws.com",
+        "name": [
+            "Amazon S3",
+            "Cloud Storage"
+        ],
+        "description": [
+            "AWS",
+            "Storage"
+        ]
+    },
+    {
+        "url": "https://code.jquery.com",
+        "name": [
+            "jQuery",
+            "JavaScript"
+        ],
+        "description": [
+            "Library",
+            "Web Development"
+        ]
+    },
+    {
+        "url": "https://dropbox.com",
+        "name": [
+            "Dropbox",
+            "Cloud Storage"
+        ],
+        "description": [
+            "File Sharing",
+            "Collaboration"
+        ]
+    },
+    {
+        "url": "https://translate.google.com",
+        "name": [
+            "Google Translate",
+            "Translation"
+        ],
+        "description": [
+            "Language",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://paypal.com",
+        "name": [
+            "PayPal",
+            "Payments"
+        ],
+        "description": [
+            "Online",
+            "Money Transfer"
+        ]
+    },
+    {
+        "url": "https://apps.apple.com",
+        "name": [
+            "App Store",
+            "Apple"
+        ],
+        "description": [
+            "Apps",
+            "Store"
+        ]
+    },
+    {
+        "url": "https://tinyurl.com",
+        "name": [
+            "TinyURL",
+            "URL Shortener"
+        ],
+        "description": [
+            "Links",
+            "Shorten"
+        ]
+    },
+    {
+        "url": "https://mail.ru",
+        "name": [
+            "Mail.ru",
+            "Email"
+        ],
+        "description": [
+            "Russia",
+            "Portal"
+        ]
+    },
+    {
+        "url": "https://wix.com",
+        "name": [
+            "Wix",
+            "Website Builder"
+        ],
+        "description": [
+            "Free Websites",
+            "Drag and Drop"
+        ]
+    },
+    {
+        "url": "https://dailymotion.com",
+        "name": [
+            "Dailymotion",
+            "Video"
+        ],
+        "description": [
+            "Streaming",
+            "Entertainment"
+        ]
+    },
+    {
+        "url": "https://mozilla.org",
+        "name": [
+            "Mozilla",
+            "Firefox"
+        ],
+        "description": [
+            "Browser",
+            "Open Source"
+        ]
+    },
+    {
+        "url": "https://cpanel.net",
+        "name": [
+            "cPanel",
+            "Web Hosting"
+        ],
+        "description": [
+            "Control Panel",
+            "Server Management"
+        ]
+    },
+    {
+        "url": "https://google.co.uk",
+        "name": [
+            "Google UK",
+            "Search"
+        ],
+        "description": [
+            "UK",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.de",
+        "name": [
+            "Google DE",
+            "Search"
+        ],
+        "description": [
+            "Germany",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.fr",
+        "name": [
+            "Google FR",
+            "Search"
+        ],
+        "description": [
+            "France",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.it",
+        "name": [
+            "Google IT",
+            "Search"
+        ],
+        "description": [
+            "Italy",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.es",
+        "name": [
+            "Google ES",
+            "Search"
+        ],
+        "description": [
+            "Spain",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.co.jp",
+        "name": [
+            "Google JP",
+            "Search"
+        ],
+        "description": [
+            "Japan",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.br",
+        "name": [
+            "Google BR",
+            "Search"
+        ],
+        "description": [
+            "Brazil",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.ca",
+        "name": [
+            "Google CA",
+            "Search"
+        ],
+        "description": [
+            "Canada",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.au",
+        "name": [
+            "Google AU",
+            "Search"
+        ],
+        "description": [
+            "Australia",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.nl",
+        "name": [
+            "Google NL",
+            "Search"
+        ],
+        "description": [
+            "Netherlands",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.pl",
+        "name": [
+            "Google PL",
+            "Search"
+        ],
+        "description": [
+            "Poland",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.tr",
+        "name": [
+            "Google TR",
+            "Search"
+        ],
+        "description": [
+            "Turkey",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.mx",
+        "name": [
+            "Google MX",
+            "Search"
+        ],
+        "description": [
+            "Mexico",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.ru",
+        "name": [
+            "Google RU",
+            "Search"
+        ],
+        "description": [
+            "Russia",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.co.in",
+        "name": [
+            "Google IN",
+            "Search"
+        ],
+        "description": [
+            "India",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.sa",
+        "name": [
+            "Google SA",
+            "Search"
+        ],
+        "description": [
+            "Saudi Arabia",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.ae",
+        "name": [
+            "Google AE",
+            "Search"
+        ],
+        "description": [
+            "UAE",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.eg",
+        "name": [
+            "Google EG",
+            "Search"
+        ],
+        "description": [
+            "Egypt",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.pk",
+        "name": [
+            "Google PK",
+            "Search"
+        ],
+        "description": [
+            "Pakistan",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ng",
+        "name": [
+            "Google NG",
+            "Search"
+        ],
+        "description": [
+            "Nigeria",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ph",
+        "name": [
+            "Google PH",
+            "Search"
+        ],
+        "description": [
+            "Philippines",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.vn",
+        "name": [
+            "Google VN",
+            "Search"
+        ],
+        "description": [
+            "Vietnam",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.my",
+        "name": [
+            "Google MY",
+            "Search"
+        ],
+        "description": [
+            "Malaysia",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.sg",
+        "name": [
+            "Google SG",
+            "Search"
+        ],
+        "description": [
+            "Singapore",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.tw",
+        "name": [
+            "Google TW",
+            "Search"
+        ],
+        "description": [
+            "Taiwan",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.hk",
+        "name": [
+            "Google HK",
+            "Search"
+        ],
+        "description": [
+            "Hong Kong",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ar",
+        "name": [
+            "Google AR",
+            "Search"
+        ],
+        "description": [
+            "Argentina",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.co",
+        "name": [
+            "Google CO",
+            "Search"
+        ],
+        "description": [
+            "Colombia",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.pe",
+        "name": [
+            "Google PE",
+            "Search"
+        ],
+        "description": [
+            "Peru",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.cl",
+        "name": [
+            "Google CL",
+            "Search"
+        ],
+        "description": [
+            "Chile",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ve",
+        "name": [
+            "Google VE",
+            "Search"
+        ],
+        "description": [
+            "Venezuela",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ec",
+        "name": [
+            "Google EC",
+            "Search"
+        ],
+        "description": [
+            "Ecuador",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.do",
+        "name": [
+            "Google DO",
+            "Search"
+        ],
+        "description": [
+            "Dominican Republic",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.gt",
+        "name": [
+            "Google GT",
+            "Search"
+        ],
+        "description": [
+            "Guatemala",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.sv",
+        "name": [
+            "Google SV",
+            "Search"
+        ],
+        "description": [
+            "El Salvador",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ni",
+        "name": [
+            "Google NI",
+            "Search"
+        ],
+        "description": [
+            "Nicaragua",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.pa",
+        "name": [
+            "Google PA",
+            "Search"
+        ],
+        "description": [
+            "Panama",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.uy",
+        "name": [
+            "Google UY",
+            "Search"
+        ],
+        "description": [
+            "Uruguay",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.py",
+        "name": [
+            "Google PY",
+            "Search"
+        ],
+        "description": [
+            "Paraguay",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.bo",
+        "name": [
+            "Google BO",
+            "Search"
+        ],
+        "description": [
+            "Bolivia",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.cr",
+        "name": [
+            "Google CR",
+            "Search"
+        ],
+        "description": [
+            "Costa Rica",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.hn",
+        "name": [
+            "Google HN",
+            "Search"
+        ],
+        "description": [
+            "Honduras",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.cu",
+        "name": [
+            "Google CU",
+            "Search"
+        ],
+        "description": [
+            "Cuba",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.pr",
+        "name": [
+            "Google PR",
+            "Search"
+        ],
+        "description": [
+            "Puerto Rico",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.jm",
+        "name": [
+            "Google JM",
+            "Search"
+        ],
+        "description": [
+            "Jamaica",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.tt",
+        "name": [
+            "Google TT",
+            "Search"
+        ],
+        "description": [
+            "Trinidad and Tobago",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.bd",
+        "name": [
+            "Google BD",
+            "Search"
+        ],
+        "description": [
+            "Bangladesh",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.np",
+        "name": [
+            "Google NP",
+            "Search"
+        ],
+        "description": [
+            "Nepal",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.lk",
+        "name": [
+            "Google LK",
+            "Search"
+        ],
+        "description": [
+            "Sri Lanka",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.mm",
+        "name": [
+            "Google MM",
+            "Search"
+        ],
+        "description": [
+            "Myanmar",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.kh",
+        "name": [
+            "Google KH",
+            "Search"
+        ],
+        "description": [
+            "Cambodia",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.la",
+        "name": [
+            "Google LA",
+            "Search"
+        ],
+        "description": [
+            "Laos",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.et",
+        "name": [
+            "Google ET",
+            "Search"
+        ],
+        "description": [
+            "Ethiopia",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.gh",
+        "name": [
+            "Google GH",
+            "Search"
+        ],
+        "description": [
+            "Ghana",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ke",
+        "name": [
+            "Google KE",
+            "Search"
+        ],
+        "description": [
+            "Kenya",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.tz",
+        "name": [
+            "Google TZ",
+            "Search"
+        ],
+        "description": [
+            "Tanzania",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ug",
+        "name": [
+            "Google UG",
+            "Search"
+        ],
+        "description": [
+            "Uganda",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.zm",
+        "name": [
+            "Google ZM",
+            "Search"
+        ],
+        "description": [
+            "Zambia",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.zw",
+        "name": [
+            "Google ZW",
+            "Search"
+        ],
+        "description": [
+            "Zimbabwe",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.na",
+        "name": [
+            "Google NA",
+            "Search"
+        ],
+        "description": [
+            "Namibia",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.bw",
+        "name": [
+            "Google BW",
+            "Search"
+        ],
+        "description": [
+            "Botswana",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.mt",
+        "name": [
+            "Google MT",
+            "Search"
+        ],
+        "description": [
+            "Malta",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.cy",
+        "name": [
+            "Google CY",
+            "Search"
+        ],
+        "description": [
+            "Cyprus",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.lb",
+        "name": [
+            "Google LB",
+            "Search"
+        ],
+        "description": [
+            "Lebanon",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.jo",
+        "name": [
+            "Google JO",
+            "Search"
+        ],
+        "description": [
+            "Jordan",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.sy",
+        "name": [
+            "Google SY",
+            "Search"
+        ],
+        "description": [
+            "Syria",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.iq",
+        "name": [
+            "Google IQ",
+            "Search"
+        ],
+        "description": [
+            "Iraq",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.kw",
+        "name": [
+            "Google KW",
+            "Search"
+        ],
+        "description": [
+            "Kuwait",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.qa",
+        "name": [
+            "Google QA",
+            "Search"
+        ],
+        "description": [
+            "Qatar",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.bh",
+        "name": [
+            "Google BH",
+            "Search"
+        ],
+        "description": [
+            "Bahrain",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.om",
+        "name": [
+            "Google OM",
+            "Search"
+        ],
+        "description": [
+            "Oman",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ye",
+        "name": [
+            "Google YE",
+            "Search"
+        ],
+        "description": [
+            "Yemen",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.sd",
+        "name": [
+            "Google SD",
+            "Search"
+        ],
+        "description": [
+            "Sudan",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ly",
+        "name": [
+            "Google LY",
+            "Search"
+        ],
+        "description": [
+            "Libya",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.tn",
+        "name": [
+            "Google TN",
+            "Search"
+        ],
+        "description": [
+            "Tunisia",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.dz",
+        "name": [
+            "Google DZ",
+            "Search"
+        ],
+        "description": [
+            "Algeria",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ma",
+        "name": [
+            "Google MA",
+            "Search"
+        ],
+        "description": [
+            "Morocco",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ci",
+        "name": [
+            "Google CI",
+            "Search"
+        ],
+        "description": [
+            "Ivory Coast",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.sn",
+        "name": [
+            "Google SN",
+            "Search"
+        ],
+        "description": [
+            "Senegal",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.cm",
+        "name": [
+            "Google CM",
+            "Search"
+        ],
+        "description": [
+            "Cameroon",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ga",
+        "name": [
+            "Google GA",
+            "Search"
+        ],
+        "description": [
+            "Gabon",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.cg",
+        "name": [
+            "Google CG",
+            "Search"
+        ],
+        "description": [
+            "Congo",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.cd",
+        "name": [
+            "Google CD",
+            "Search"
+        ],
+        "description": [
+            "DR Congo",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ao",
+        "name": [
+            "Google AO",
+            "Search"
+        ],
+        "description": [
+            "Angola",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.mz",
+        "name": [
+            "Google MZ",
+            "Search"
+        ],
+        "description": [
+            "Mozambique",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.mg",
+        "name": [
+            "Google MG",
+            "Search"
+        ],
+        "description": [
+            "Madagascar",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.re",
+        "name": [
+            "Google RE",
+            "Search"
+        ],
+        "description": [
+            "Réunion",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.mu",
+        "name": [
+            "Google MU",
+            "Search"
+        ],
+        "description": [
+            "Mauritius",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.sc",
+        "name": [
+            "Google SC",
+            "Search"
+        ],
+        "description": [
+            "Seychelles",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.fj",
+        "name": [
+            "Google FJ",
+            "Search"
+        ],
+        "description": [
+            "Fiji",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.pg",
+        "name": [
+            "Google PG",
+            "Search"
+        ],
+        "description": [
+            "Papua New Guinea",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.sb",
+        "name": [
+            "Google SB",
+            "Search"
+        ],
+        "description": [
+            "Solomon Islands",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.vu",
+        "name": [
+            "Google VU",
+            "Search"
+        ],
+        "description": [
+            "Vanuatu",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.nc",
+        "name": [
+            "Google NC",
+            "Search"
+        ],
+        "description": [
+            "New Caledonia",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.pf",
+        "name": [
+            "Google PF",
+            "Search"
+        ],
+        "description": [
+            "French Polynesia",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.wf",
+        "name": [
+            "Google WF",
+            "Search"
+        ],
+        "description": [
+            "Wallis and Futuna",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.nr",
+        "name": [
+            "Google NR",
+            "Search"
+        ],
+        "description": [
+            "Nauru",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ki",
+        "name": [
+            "Google KI",
+            "Search"
+        ],
+        "description": [
+            "Kiribati",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.tv",
+        "name": [
+            "Google TV",
+            "Search"
+        ],
+        "description": [
+            "Tuvalu",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.tk",
+        "name": [
+            "Google TK",
+            "Search"
+        ],
+        "description": [
+            "Tokelau",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.nu",
+        "name": [
+            "Google NU",
+            "Search"
+        ],
+        "description": [
+            "Niue",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ws",
+        "name": [
+            "Google WS",
+            "Search"
+        ],
+        "description": [
+            "Samoa",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.to",
+        "name": [
+            "Google TO",
+            "Search"
+        ],
+        "description": [
+            "Tonga",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.mp",
+        "name": [
+            "Google MP",
+            "Search"
+        ],
+        "description": [
+            "Northern Mariana Islands",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.gu",
+        "name": [
+            "Google GU",
+            "Search"
+        ],
+        "description": [
+            "Guam",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.vi",
+        "name": [
+            "Google VI",
+            "Search"
+        ],
+        "description": [
+            "U.S. Virgin Islands",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ag",
+        "name": [
+            "Google AG",
+            "Search"
+        ],
+        "description": [
+            "Antigua and Barbuda",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ai",
+        "name": [
+            "Google AI",
+            "Search"
+        ],
+        "description": [
+            "Anguilla",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.aw",
+        "name": [
+            "Google AW",
+            "Search"
+        ],
+        "description": [
+            "Aruba",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.bb",
+        "name": [
+            "Google BB",
+            "Search"
+        ],
+        "description": [
+            "Barbados",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.bz",
+        "name": [
+            "Google BZ",
+            "Search"
+        ],
+        "description": [
+            "Belize",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.dm",
+        "name": [
+            "Google DM",
+            "Search"
+        ],
+        "description": [
+            "Dominica",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.gd",
+        "name": [
+            "Google GD",
+            "Search"
+        ],
+        "description": [
+            "Grenada",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.gp",
+        "name": [
+            "Google GP",
+            "Search"
+        ],
+        "description": [
+            "Guadeloupe",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.mq",
+        "name": [
+            "Google MQ",
+            "Search"
+        ],
+        "description": [
+            "Martinique",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.lc",
+        "name": [
+            "Google LC",
+            "Search"
+        ],
+        "description": [
+            "Saint Lucia",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.vc",
+        "name": [
+            "Google VC",
+            "Search"
+        ],
+        "description": [
+            "Saint Vincent and the Grenadines",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.bs",
+        "name": [
+            "Google BS",
+            "Search"
+        ],
+        "description": [
+            "Bahamas",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.ky",
+        "name": [
+            "Google KY",
+            "Search"
+        ],
+        "description": [
+            "Cayman Islands",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.tc",
+        "name": [
+            "Google TC",
+            "Search"
+        ],
+        "description": [
+            "Turks and Caicos Islands",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.vg",
+        "name": [
+            "Google VG",
+            "Search"
+        ],
+        "description": [
+            "British Virgin Islands",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.bm",
+        "name": [
+            "Google BM",
+            "Search"
+        ],
+        "description": [
+            "Bermuda",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.fk",
+        "name": [
+            "Google FK",
+            "Search"
+        ],
+        "description": [
+            "Falkland Islands",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.gi",
+        "name": [
+            "Google GI",
+            "Search"
+        ],
+        "description": [
+            "Gibraltar",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.im",
+        "name": [
+            "Google IM",
+            "Search"
+        ],
+        "description": [
+            "Isle of Man",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.je",
+        "name": [
+            "Google JE",
+            "Search"
+        ],
+        "description": [
+            "Jersey",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.gg",
+        "name": [
+            "Google GG",
+            "Search"
+        ],
+        "description": [
+            "Guernsey",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.nf",
+        "name": [
+            "Google NF",
+            "Search"
+        ],
+        "description": [
+            "Norfolk Island",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.pn",
+        "name": [
+            "Google PN",
+            "Search"
+        ],
+        "description": [
+            "Pitcairn Islands",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.sh",
+        "name": [
+            "Google SH",
+            "Search"
+        ],
+        "description": [
+            "Saint Helena",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.gs",
+        "name": [
+            "Google GS",
+            "Search"
+        ],
+        "description": [
+            "South Georgia and the South Sandwich Islands",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.aq",
+        "name": [
+            "Google AQ",
+            "Search"
+        ],
+        "description": [
+            "Antarctica",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.tf",
+        "name": [
+            "Google TF",
+            "Search"
+        ],
+        "description": [
+            "French Southern and Antarctic Lands",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.hm",
+        "name": [
+            "Google HM",
+            "Search"
+        ],
+        "description": [
+            "Heard Island and McDonald Islands",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.cc",
+        "name": [
+            "Google CC",
+            "Search"
+        ],
+        "description": [
+            "Cocos (Keeling) Islands",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.cx",
+        "name": [
+            "Google CX",
+            "Search"
+        ],
+        "description": [
+            "Christmas Island",
+            "Google"
+        ]
+    },
+    {
+        "url": "https://google.com.io",
+        "name": [
+            "Google IO",
+            "Search"
+        ],
+        "description": [
+            "British Indian Ocean Territory",
+            "Google"
+        ]
     }
 ]
