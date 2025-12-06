@@ -88,6 +88,9 @@
             filter: invert(1);
         }
         
+
+
+        
         @media (max-width: 600px) {
             body {
                 padding: 10px;
@@ -163,17 +166,17 @@ if (!visited) {
         function search() {
             const query = document.getElementById('searchInput').value.trim();
             if (query) {
+                // إصلاح المسار - استخدم مسار نسبي
                 window.location.href = `./q=/search.html?q=${encodeURIComponent(query)}`;
             }
         }
         
         window.onload = function() {
             document.getElementById('searchInput').focus();
-
+        };
+    </script>
 </script>
+
+
 </body>
 </html>
-
-
-
-
